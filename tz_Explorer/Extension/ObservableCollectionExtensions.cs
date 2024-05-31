@@ -17,8 +17,6 @@ namespace tz_Explorer.Extension
                 collection.Add(item);
                 return;
             }
-
-
             foreach (var element in collection)
             {
                 if(element.Name == item.Name)
@@ -27,8 +25,7 @@ namespace tz_Explorer.Extension
                     {
                         return;
                     }
-                }
-                 
+                } 
             }
         }
 

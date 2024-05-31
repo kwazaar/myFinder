@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +63,7 @@
     </Compile>
     <Compile Include="Extension\ObservableCollectionExtensions.cs" />
     <Compile Include="Model\SystemElement.cs" />
+    <Compile Include="Service\IconService.cs" />
     <Compile Include="Service\SettingService.cs" />
     <Compile Include="Service\SystemElementBuilder.cs" />
     <Compile Include="ViewController\BaseViewModel.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\UIConverter\ButtonConverters.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

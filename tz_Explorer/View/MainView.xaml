@@ -4,13 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tz_Explorer.View"
+        xmlns:converters="clr-namespace:tz_Explorer.View.UIConverter"
         mc:Ignorable="d"
-        Title="MainView" Height="900" Width="500">
+        WindowStartupLocation="CenterScreen"
+        Title="Главное окно" Height="600" Width="500">
+    <Window.Resources>
+        <converters:StartStopButtonContentConverter x:Key="StartStopConverter"/>
+        <converters:ButtonVisibilityConverter x:Key="VisibilityConverter"/>
+        <converters:PauseResumeButtonContentConverter x:Key="PauseResumeConverter"/>
+        <converters:ButtonEnableConverter x:Key="EnableConverter"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         
         <Grid Margin="5 0">
@@ -21,8 +30,8 @@
             </Grid.ColumnDefinitions>
 
             <Label Content="Директория:" Margin="5"/>
-            <TextBox Text="{Binding CurrentDirectory}" Margin="5" Grid.Column="1"/>
-            <Button Command="{Binding SelectDirectoryCommand}" Content="..." Margin="5" Padding="5 0" FontSize="18" Grid.Column="2"/>
+            <TextBox Text="{Binding CurrentDirectory}" Margin="5" Grid.Column="1" IsReadOnly="{Binding SearchStart}"/>
+            <Button Command="{Binding SelectDirectoryCommand}" Content="..." Margin="5" Padding="5 0" FontSize="18" Grid.Column="2" IsEnabled="{Binding SearchStart, Converter={StaticResource EnableConverter}}"/>
         </Grid>
         
         <Grid Grid.Row="1" Margin="5 0">
@@ -33,21 +42,39 @@
             </Grid.ColumnDefinitions>
 
             <Label Content="Имя элемента:" Margin="5" Grid.Column="0"/>
-            <TextBox Text="{Binding RegexToSearch}" Margin="5" Grid.Column="1"/>
-            <Button Command="{Binding SearchCommand}" Content="Поиск" Margin="5" Padding="5 0" FontSize="14" Grid.Column="2"/>
+            <TextBox Text="{Binding RegexToSearch}" Margin="5" Grid.Column="1" IsReadOnly="{Binding SearchStart}"/>
+            <Grid Grid.Column="2">
+                <StackPanel Orientation="Horizontal">
+                    <Button Command="{Binding SearchCommand}" Content="{Binding SearchStart, Converter={StaticResource StartStopConverter}}" Margin="5" Padding="5 0" FontSize="14" />
+                    <Button Content="{Binding IsPaused, Converter={StaticResource PauseResumeConverter}}" Command="{Binding PauseResumeCommand}" Visibility="{Binding SearchStart, Converter={StaticResource VisibilityConverter}}" Margin="5" Padding="5 0" FontSize="14"/>
+                </StackPanel>
+            </Grid >
         </Grid>
 
-        <TreeView ItemsSource="{Binding SystemElements}" Grid.Row="2" Margin="10 5 10 10">
+        <TreeView ItemsSource="{Binding SystemElements}" Grid.Row="2" Margin="10 5 10 0">
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding Children}" >
-                    <TextBlock Text="{Binding Name}" />
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Icon}" Width="16" Height="16" Margin="0,0,5,0"/>
+                        <TextBlock Text="{Binding Name}"/>
+                    </StackPanel>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
-            <!--<TreeView.ItemContainerStyle>
-                <Style TargetType="TreeViewItem">
-                    <EventSetter Event="Expanded" Handler="TreeViewItem_Expanded"/>
-                </Style>
-            </TreeView.ItemContainerStyle>-->
         </TreeView>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal"  Margin="5">
+                <Label Content="Проверено файлов:"/>
+                <Label Content="{Binding FileChecked}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  Margin="5" Grid.Column="1" HorizontalAlignment="Right">
+                <Label Content="Время поиска:"/>
+                <Label Content="{Binding ElapsedTime}"/>
+            </StackPanel>
+        </Grid>
+        
     </Grid>
 </Window>

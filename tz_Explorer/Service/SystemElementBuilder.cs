@@ -14,7 +14,7 @@ namespace tz_Explorer.Service
         public static SystemElement BuildHierarchyFromFile(string rootFolderPath, string filePath)
         {
             var rootDirectory = new DirectoryInfo(rootFolderPath);
-            var fileElement = new SystemElement(Path.GetFileName(filePath), filePath);
+            var fileElement = new SystemElement(Path.GetFileName(filePath), filePath, false);
 
             return BuildHierarchy(rootDirectory, fileElement);
         }
@@ -34,7 +34,7 @@ namespace tz_Explorer.Service
                 return currentElement;
             }
 
-            var parentElement = new SystemElement(parentDirectory.Name, parentDirectory.FullName);
+            var parentElement = new SystemElement(parentDirectory.Name, parentDirectory.FullName, true);
             parentElement.Children.Add(currentElement);
 
             return BuildHierarchy(rootDirectory, parentElement);

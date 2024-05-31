@@ -5,47 +5,32 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
 using tz_Explorer.ViewController;
+using tz_Explorer.Service;
 
 namespace tz_Explorer.Model
 {
     public class SystemElement: BaseViewModel
     {
         public string Name { get; set; }
-        public bool IsExpanded { get; set; }
         public string Path { get; set; }
-
-        private ObservableCollection<SystemElement> _children;
-        public ObservableCollection<SystemElement> Children
-        {
-            get => _children;
-            set
-            {
-                if (_children != value)
-                {
-                    if (_children != null)
-                    {
-                        _children.CollectionChanged -= Children_CollectionChanged;
-                    }
-                    _children = value;
-                    if (_children != null)
-                    {
-                        _children.CollectionChanged += Children_CollectionChanged;
-                    }
-                }
-            }
-        }
-
+        public ImageSource Icon { get; set; }
+        public ObservableCollection<SystemElement> Children { get; set; }
         public SystemElement(string name, string path)
         {
             Children = new ObservableCollection<SystemElement>();
             Name = name;
             Path = path;
         }
-        private void Children_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        public SystemElement(string name, string path, bool isFolder)
         {
-            OnPropertyChanged(nameof(Children));
+            Children = new ObservableCollection<SystemElement>();
+            Name = name;
+            Path = path;
+            Icon = IconService.GetIcon(path, isFolder);
         }
+
 
     }
 }
