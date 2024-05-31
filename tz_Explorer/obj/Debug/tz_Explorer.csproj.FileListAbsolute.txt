@@ -1,0 +1,15 @@
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\bin\Debug\tz_Explorer.exe.config
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\bin\Debug\tz_Explorer.exe
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\bin\Debug\tz_Explorer.pdb
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.csproj.AssemblyReference.cache
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\App.g.cs
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer_MarkupCompile.cache
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer_MarkupCompile.lref
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.g.resources
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.Properties.Resources.resources
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.csproj.GenerateResource.cache
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.csproj.CoreCompileInputs.cache
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.exe
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\tz_Explorer.pdb
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\View\MainView.g.cs
+C:\Users\ma.sizov\Desktop\TestingApp\NewApp\tz_Explorer\tz_Explorer\obj\Debug\View\MainView.baml

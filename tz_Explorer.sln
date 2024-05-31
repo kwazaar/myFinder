@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tz_Explorer", "tz_Explorer\tz_Explorer.csproj", "{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E50F0E-D56B-445F-871E-434C160C98F6}
+	EndGlobalSection
+EndGlobal

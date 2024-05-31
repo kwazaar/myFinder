@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|c:\\users\\ma.sizov\\desktop\\testingapp\\newapp\\tz_explorer\\tz_explorer\\extension\\observablecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\extension\\observablecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|c:\\users\\ma.sizov\\desktop\\testingapp\\newapp\\tz_explorer\\tz_explorer\\viewcontroller\\mainviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\viewcontroller\\mainviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|c:\\users\\ma.sizov\\desktop\\testingapp\\newapp\\tz_explorer\\tz_explorer\\model\\systemelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\model\\systemelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\service\\systemelementbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\service\\systemelementbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\service\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\service\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|tz_Explorer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\viewcontroller\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\viewcontroller\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_explorer\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15C7DDCA-B9FF-4B83-B555-04D822D25ECA}|tz_Explorer\\tz_Explorer.csproj|solutionrelative:tz_explorer\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObservableCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Extension\\ObservableCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\Extension\\ObservableCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Extension\\ObservableCollectionExtensions.cs",
+              "RelativeToolTip": "tz_Explorer\\Extension\\ObservableCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T06:59:21.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tz_Explorer",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\tz_Explorer.csproj",
+              "RelativeDocumentMoniker": "tz_Explorer\\tz_Explorer.csproj",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\tz_Explorer.csproj",
+              "RelativeToolTip": "tz_Explorer\\tz_Explorer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-30T14:16:19.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SystemElementBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Service\\SystemElementBuilder.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\Service\\SystemElementBuilder.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Service\\SystemElementBuilder.cs",
+              "RelativeToolTip": "tz_Explorer\\Service\\SystemElementBuilder.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:04:24.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\View\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\View\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\View\\MainView.xaml.cs",
+              "RelativeToolTip": "tz_Explorer\\View\\MainView.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:17:28.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "tz_Explorer\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Properties\\Settings.settings",
+              "RelativeToolTip": "tz_Explorer\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-05-30T12:12:50.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Service\\SettingService.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\Service\\SettingService.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Service\\SettingService.cs",
+              "RelativeToolTip": "tz_Explorer\\Service\\SettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:12:23.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\ViewController\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\ViewController\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\ViewController\\RelayCommand.cs",
+              "RelativeToolTip": "tz_Explorer\\ViewController\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:49:21.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SystemElement.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Model\\SystemElement.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\Model\\SystemElement.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\Model\\SystemElement.cs",
+              "RelativeToolTip": "tz_Explorer\\Model\\SystemElement.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAMwC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:34:37.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewController.cs",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\ViewController\\MainViewController.cs",
+              "RelativeDocumentMoniker": "tz_Explorer\\ViewController\\MainViewController.cs",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\ViewController\\MainViewController.cs",
+              "RelativeToolTip": "tz_Explorer\\ViewController\\MainViewController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAnwF4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:54:46.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\View\\MainView.xaml",
+              "RelativeDocumentMoniker": "tz_Explorer\\View\\MainView.xaml",
+              "ToolTip": "C:\\Users\\ma.sizov\\Desktop\\TestingApp\\NewApp\\tz_Explorer\\tz_Explorer\\View\\MainView.xaml",
+              "RelativeToolTip": "tz_Explorer\\View\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T06:44:23.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
