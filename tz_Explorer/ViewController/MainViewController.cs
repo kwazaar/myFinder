@@ -105,6 +105,8 @@ namespace tz_Explorer.ViewController
 
                     if (regex.IsMatch(Path.GetFileName(file)))
                     {
+                        FileFound++;
+
                         System.Windows.Application.Current.Dispatcher.Invoke(() =>
                         {
                             var fileItem = new SystemElement(Path.GetFileName(file), file, false);
@@ -114,10 +116,11 @@ namespace tz_Explorer.ViewController
                             }
                             else
                             {
+                                
                                 var currentFile = new DirectoryInfo(file);
                                 var fileDirectory = new DirectoryInfo(currentFile.Parent.FullName);
                                 var previosDirectory = new DirectoryInfo(fileDirectory.Parent.FullName);
-
+                                
                                 AddElementToCollection(SystemElementBuilder.BuildHierarchyFromFile(CurrentDirectory, currentFile.FullName));
                             }
                         });
@@ -160,6 +163,7 @@ namespace tz_Explorer.ViewController
         {
             SearchStart = true;
             FileChecked = 0;
+            FileFound = 0;
             ElapsedTime = "00:00:00";
             _startTime = DateTime.Now;
             _pausedTime = TimeSpan.Zero;
@@ -228,6 +232,18 @@ namespace tz_Explorer.ViewController
                 OnPropertyChanged(nameof(FileChecked));
             }
         }
+
+        private int _filesFound;
+        public int FileFound
+        {
+            get { return _filesFound; }
+            set
+            {
+                _filesFound = value;
+                OnPropertyChanged(nameof(FileFound));
+            }
+        }
+
         private string _elapsedTime;
         public string ElapsedTime
         {
