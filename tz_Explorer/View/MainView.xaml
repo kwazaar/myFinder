@@ -14,6 +14,7 @@
         <converters:PauseResumeButtonContentConverter x:Key="PauseResumeConverter"/>
         <converters:ButtonEnableConverter x:Key="EnableConverter"/>
     </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -61,20 +62,22 @@
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>
+
         <Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+
             <StackPanel Orientation="Horizontal"  Margin="5">
                 <Label Content="Проверено файлов:"/>
                 <Label Content="{Binding FileChecked}"/>
             </StackPanel>
+
             <StackPanel Orientation="Horizontal"  Margin="5" Grid.Column="1" HorizontalAlignment="Right">
                 <Label Content="Время поиска:"/>
                 <Label Content="{Binding ElapsedTime}"/>
             </StackPanel>
         </Grid>
-        
     </Grid>
 </Window>

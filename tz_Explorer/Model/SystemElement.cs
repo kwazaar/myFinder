@@ -17,12 +17,6 @@ namespace tz_Explorer.Model
         public string Path { get; set; }
         public ImageSource Icon { get; set; }
         public ObservableCollection<SystemElement> Children { get; set; }
-        public SystemElement(string name, string path)
-        {
-            Children = new ObservableCollection<SystemElement>();
-            Name = name;
-            Path = path;
-        }
         public SystemElement(string name, string path, bool isFolder)
         {
             Children = new ObservableCollection<SystemElement>();
