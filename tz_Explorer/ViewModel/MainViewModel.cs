@@ -15,9 +15,9 @@ using tz_Explorer.Extension;
 using tz_Explorer.Model;
 using tz_Explorer.Service;
 
-namespace tz_Explorer.ViewController
+namespace tz_Explorer.ViewModel
 {
-    public class MainViewController: BaseViewModel
+    public class MainViewModel: BaseViewModel
     {
         public ObservableCollection<SystemElement> SystemElements { get; set; }
         public ICommand SelectDirectoryCommand { get; }
@@ -30,7 +30,7 @@ namespace tz_Explorer.ViewController
         private TimeSpan _pausedTime;
         private DateTime _pauseStartTime;
 
-        public MainViewController()
+        public MainViewModel()
         {
             SystemElements = new ObservableCollection<SystemElement>();
             ElapsedTime = "00:00:00";

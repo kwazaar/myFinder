@@ -66,9 +66,9 @@
     <Compile Include="Service\IconService.cs" />
     <Compile Include="Service\SettingService.cs" />
     <Compile Include="Service\SystemElementBuilder.cs" />
-    <Compile Include="ViewController\BaseViewModel.cs" />
-    <Compile Include="ViewController\MainViewController.cs" />
-    <Compile Include="ViewController\RelayCommand.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>

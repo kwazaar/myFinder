@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using tz_Explorer.Model;
-using tz_Explorer.ViewController;
+using tz_Explorer.ViewModel;
 
 namespace tz_Explorer.View
 {
@@ -24,7 +24,7 @@ namespace tz_Explorer.View
         public MainView()
         {
             InitializeComponent();
-            MainViewController vc = new MainViewController();
+            MainViewModel vc = new MainViewModel();
             DataContext = vc;
         }
     }

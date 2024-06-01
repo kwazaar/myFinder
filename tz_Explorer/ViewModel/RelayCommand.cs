@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace tz_Explorer.ViewController
+namespace tz_Explorer.ViewModel
 {
 
     public class RelayCommand : ICommand

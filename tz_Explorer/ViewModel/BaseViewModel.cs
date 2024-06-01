@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tz_Explorer.ViewController
+namespace tz_Explorer.ViewModel
 {
     public class BaseViewModel: INotifyPropertyChanged
     {

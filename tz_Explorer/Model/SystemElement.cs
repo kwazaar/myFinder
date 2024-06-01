@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
-using tz_Explorer.ViewController;
+using tz_Explorer.ViewModel;
 using tz_Explorer.Service;
 
 namespace tz_Explorer.Model
 {
-    public class SystemElement: BaseViewModel
+    public class SystemElement
     {
         public string Name { get; set; }
         public string Path { get; set; }

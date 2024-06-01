@@ -7,7 +7,7 @@
         xmlns:converters="clr-namespace:tz_Explorer.View.UIConverter"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Главное окно" Height="600" Width="500">
+        Title="Главное окно" Height="600" Width="600">
     <Window.Resources>
         <converters:StartStopButtonContentConverter x:Key="StartStopConverter"/>
         <converters:ButtonVisibilityConverter x:Key="VisibilityConverter"/>
